@@ -1,0 +1,77 @@
+.header_envio span{
+    height: 18px;	
+    font-family: "Brandon Grotesque", 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;	
+    font-size: 15px;	
+    font-weight: 500;
+    line-height: 18px;   
+}
+.buscador_logo{
+    color: #FFFFFF !important;
+    background-color: #5CB8A3 !important;  
+}  
+.buscador_logo_grande{
+    color: #FFFFFF !important;
+    background-color: #5CB8A3 !important;  
+}  
+#nProductosCarro{
+    position: relative;
+    height: 23px;	
+    width: 23px;	
+    border-radius: 50%;
+    background-color: #D0DE58;
+    font-family: "Brandon Grotesque", 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;	
+    font-size: 15px;	
+    font-weight: 900;	    
+    bottom: 0.4rem;
+    left: 0.45rem;
+}
+.menu_horizontal {
+    border: 1px solid #EBE7E4;	
+    background-color: #FBFAF9;
+}  
+.menu_horizontal .menuLinks{
+    font-weight: 630;
+    color: #4A4A4A;
+}
+.menu_horizontal .menuLinksOfertas{
+    font-weight: 630;
+    color: #dc3545;   
+}
+
+@media (max-width: 768px) {
+    #iconsMBRight, #user, #carro {
+        display: contents;
+    }
+    #menu{
+        margin: 0;
+        padding: 0;
+        position: absolute;
+        width: 100%;
+        height: 700px;
+        z-index: 100;
+        left: -100%;
+        top: -25%;
+        transition: all 0.7s;
+        border: 1px solid #EBE7E4;	
+        background-color: #FBFAF9;
+    }
+    #dropdownMenu:checked ~ #menu{
+        left: 0;
+        transition: all 0.7s;
+    }
+    #logoNaturitas {
+        max-width: 40%;
+    }
+}
+
+@media (min-width: 768px) {
+    #carro{
+        height: 50px;	
+        /* width: 60%; */
+        border: 1px solid #F2F2F2;	
+        border-radius: 6px;
+    }
+}
+
+
+  

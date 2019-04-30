@@ -1,0 +1,33 @@
+#footer_dropdown{
+    margin-top: 7rem !important;
+    background-color: #FBFAF9;  
+}
+#footerSimbolo{
+    position: relative;
+    top: -60px;
+}
+.iconChevron {
+    float: right;
+}
+.footerLists {
+    line-height: 35px;
+}
+.footerIconsRRSS {
+    width: 2.5rem;
+}
+.footerIconsMetPago {
+    width: 3rem;
+}
+#footer_copyright{
+    background-color: #ECEAE7;
+}
+#footer_copyright span{	
+    font-size: 14px;	
+    color: #9B9B9B;		
+}
+
+@media (max-width: 768px) {
+    #footer_dropdown h6{
+        cursor: pointer;  
+    }
+}
